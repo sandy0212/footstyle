@@ -23,7 +23,7 @@ class App extends Component {
              res.push(this.state.footwear[j][0]);
              res.push(this.state.footwear[j][1]);
             
-             //res.push("quantity",localStorage.getItem(localStorage.key(i)))
+             res.push("quantity",localStorage.getItem(localStorage.key(i)))
             res.push(this.state.footwear[j][2]);
             res.push(this.state.footwear[j][3]);
             res.push(this.state.footwear[j][4])
