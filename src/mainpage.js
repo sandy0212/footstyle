@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-class mainpage extends Component()
+export class Mainpage extends Component()
 {
     render(){
+        return(
+            <div>
         <div class="header">
             <div class="container">
                 <div class="header-top">
@@ -43,7 +45,7 @@ class mainpage extends Component()
                         <div class="collapse navbar-collapse collapse-pdng" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav nav-font">
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<b class="caret"></b></a>
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Shop<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="products.html">Shoes</a></li>
                                         <li><a href="products.html">Tees</a></li>
@@ -55,7 +57,7 @@ class mainpage extends Component()
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men<b class="caret"></b></a>
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Men<b class="caret"></b></a>
                                     <ul class="dropdown-menu multi-column columns-3">
                                         <div class="row">
                                             <div class="col-sm-4 menu-img-pad">
@@ -70,16 +72,16 @@ class mainpage extends Component()
                                                 </ul>
                                             </div>
                                             <div class="col-sm-4 menu-img-pad">
-                        <a href="#"><img src="images/menu1.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                        <a href=""><img src="images/menu1.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
                                             </div>
                                             <div class="col-sm-4 menu-img-pad">
-                        <a href="#"><img src="images/menu2.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                        <a href=""><img src="images/menu2.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
                                             </div>
                                         </div>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women<b class="caret"></b></a>
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Women<b class="caret"></b></a>
                                     <ul class="dropdown-menu multi-column columns-2">
                                         <div class="row">
                                             <div class="col-sm-6">
@@ -94,13 +96,13 @@ class mainpage extends Component()
                                                 </ul>
                                             </div>
                                             <div class="col-sm-6">
-                        <a href="#"><img src="images/menu3.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                        <a href=""><img src="images/menu3.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
                                             </div>
                                         </div>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">kids<b class="caret"></b></a>
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">kids<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="products.html">Tees</a></li>
                                         <li><a href="products.html">Shorts</a></li>
@@ -158,11 +160,11 @@ class mainpage extends Component()
                         </div>
                     </div>
                   </div>
-                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <a class="left carousel-control" href="" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left car-icn" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
-                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <a class="right carousel-control" href="" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right car-icn" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                   </a>
@@ -201,7 +203,7 @@ class mainpage extends Component()
                                     <h3>style 01</h3>
                                 </div>
                                 <div class="pull-right styl-price">
-                                    <p><a  href="#" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
+                                    <p><a  href="" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
                                 </div>
                                 <div class="clearfix"></div>
                             </div></div>
@@ -219,7 +221,7 @@ class mainpage extends Component()
                                     <h3>style 01</h3>
                                 </div>
                                 <div class="pull-right styl-price">
-    <p><a  href="#" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
+    <p><a  href="" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
                                 </div>
                                 <div class="clearfix"></div>
                             </div></div>
@@ -238,7 +240,7 @@ class mainpage extends Component()
                                     <h3>style 01</h3>
                                 </div>
                                 <div class="pull-right styl-price">
-    <p><a  href="#" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
+    <p><a  href="" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
                                 </div>
                                 <div class="clearfix"></div>
                             </div></div>
@@ -257,7 +259,7 @@ class mainpage extends Component()
                                     <h3>style 01</h3>
                                 </div>
                                 <div class="pull-right styl-price">
-    <p><a  href="#" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
+    <p><a  href="" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
                                 </div>
                                 <div class="clearfix"></div>
                             </div></div>
@@ -276,7 +278,7 @@ class mainpage extends Component()
                                     <h3>style 01</h3>
                                 </div>
                                 <div class="pull-right styl-price">
-    <p><a  href="#" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
+    <p><a  href="" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
                                 </div>
                                 <div class="clearfix"></div>
                             </div></div>
@@ -294,7 +296,7 @@ class mainpage extends Component()
                                     <h3>style 01</h3>
                                 </div>
                                 <div class="pull-right styl-price">
-    <p><a  href="#" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
+    <p><a  href="" class="item_add"><span class="glyphicon glyphicon-shopping-cart grid-cart" aria-hidden="true"></span> <span class=" item_price">$190</span></a></p>
                                 </div>
                                 <div class="clearfix"></div>
                             </div></div>
@@ -310,7 +312,7 @@ class mainpage extends Component()
             <div class="container">
                 <form>
                     <h3>NewsLetter</h3>
-                <a class="btn btn-default subs-btn" href="#" role="button">SUBSCRIBE</a>
+                <a class="btn btn-default subs-btn" href="" role="button">SUBSCRIBE</a>
                 </form>
             </div>
         </div>
@@ -320,31 +322,31 @@ class mainpage extends Component()
                 <div class="col-md-2 re-ft-grd">
                     <h3>Categories</h3>
                     <ul class="categories">
-                        <li><a href="#">Men</a></li>
-                        <li><a href="#">Women</a></li>
-                        <li><a href="#">Kids</a></li>
-                        <li><a href="#">Formal</a></li>
-                        <li><a href="#">Casuals</a></li>
-                        <li><a href="#">Sports</a></li>
+                        <li><a href="">Men</a></li>
+                        <li><a href="">Women</a></li>
+                        <li><a href="">Kids</a></li>
+                        <li><a href="">Formal</a></li>
+                        <li><a href="">Casuals</a></li>
+                        <li><a href="">Sports</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 re-ft-grd">
                     <h3>Short links</h3>
                     <ul class="shot-links">
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Delivery</a></li>
-                        <li><a href="#">Return Policy</a></li>
-                        <li><a href="#">Terms & conditions</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Terms & conditions</a></li>
                         <li><a href="contact.html">Sitemap</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 re-ft-grd">
                     <h3>Social</h3>
                     <ul class="social">
-                        <li><a href="#" class="fb">facebook</a></li>
-                        <li><a href="#" class="twt">twitter</a></li>
-                        <li><a href="#" class="gpls">g+ plus</a></li>
+                        <li><a href="" class="fb">facebook</a></li>
+                        <li><a href="" class="twt">twitter</a></li>
+                        <li><a href="" class="gpls">g+ plus</a></li>
                         <div class="clearfix"></div>
                     </ul>
                 </div>
@@ -363,5 +365,6 @@ class mainpage extends Component()
                 </div>
             </div>
         </div>
-    }
+        </div>
+        )}
 }
